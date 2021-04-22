@@ -7,6 +7,9 @@ Requirements
 ------------
 In order to build dwm you need the Xlib header files.
 
+Patch libXft for BGRA glyphs and scaling, otherwise crashes (Or uncomment iscol as a workaround so as not to use them).
+This fix is currently under a merge request and can be found here https://gitlab.freedesktop.org/xorg/lib/libxft/-/merge_requests/1#00577d0b8449c78bd852911e5ac5123234a9e957
+
 
 Installation
 ------------
