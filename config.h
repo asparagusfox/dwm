@@ -98,7 +98,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-	{ MODKEY,			XK_F1,	   spawn,	   SHCMD("pactl set-source-mute <symbolic name> toggle") },
+	{ MODKEY,			XK_F1,	   spawn,	   SHCMD("pactl set-source-mute 1 toggle") },
 };
 
 /* button definitions */
