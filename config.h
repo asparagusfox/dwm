@@ -62,6 +62,8 @@ static const char *termcmd[]  = { "st", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
+	{ MODKEY,			XK_n,	   spawn,	   SHCMD("dim") },
+	{ MODKEY|ShiftMask,		XK_n,	   spawn,	   SHCMD("redshift -x") },
 	{ MODKEY,			XK_s,	   spawn,	   SHCMD("maimshot") },
 	{ MODKEY,			XK_w,	   spawn,	   SHCMD("brave-browser") },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
