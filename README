@@ -1,3 +1,7 @@
+============================
+REMINDER: I don't have a patched libXft on my pc and the crash safeguard has been commented out. This means that my build may be prone to crashes when displaying emojis. (I haven't ecperienced any yet)
+============================
+
 Axel's build of dwm
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
